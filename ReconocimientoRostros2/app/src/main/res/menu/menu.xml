@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuRotar"
+        android:title="Rotar 90°"/>
+
+    <item
+        android:id="@+id/menuMostrarMarcas"
+        android:title="Mostrar Marcas en Imagen"/>
+    <item
+        android:id="@+id/menuMostrarConsola"
+        android:title="Mostrar Marcas en Consola"/>
+    <item
+        android:id="@+id/menuMostrarNombre"
+        android:title="Mostrar Nombres Marcas en Imagen"/>
+    <item
+        android:id="@+id/menuMostrarRecuadro"
+        android:title="Mostrar Recuadro Cara"/>
+</menu>

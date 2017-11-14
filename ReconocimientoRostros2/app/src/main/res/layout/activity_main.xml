@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.facundo.reconocimientorostros2.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/imageViewFoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/agregarImagenBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageViewFoto"
+                android:text="Seleccionar Imagen"
+                android:textColor="#006CCF"/>
+
+            <Button
+                android:id="@+id/btnEliminarMascara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/agregarImagenBtn"
+                android:text="Limpiar Imagen"
+                android:textColor="#006CCF"/>
+
+            <LinearLayout
+                android:id="@+id/mascaras"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@id/btnEliminarMascara"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnMascaraLentes"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="false"
+                    android:background="@drawable/imagebutton_border"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/lentes"/>
+
+                <ImageButton
+                    android:id="@+id/btnMascaraElegante"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="false"
+                    android:background="@drawable/imagebutton_border"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/icono_elegante"/>
+
+                <ImageButton
+                    android:id="@+id/btnMascaraMickey"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="false"
+                    android:background="@drawable/imagebutton_border"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/micky_mouse"/>
+
+                <ImageButton
+                    android:id="@+id/btnMascaraFlores"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="false"
+                    android:background="@drawable/imagebutton_border"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/flower_crown"/>
+
+
+                <ImageButton
+                    android:id="@+id/btnMascaraSnowman"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="false"
+                    android:background="@drawable/imagebutton_border"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/icono_snowman"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
